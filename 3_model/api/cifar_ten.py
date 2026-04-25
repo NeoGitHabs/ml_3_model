@@ -9,6 +9,8 @@ from PIL import Image
 import torch
 import io
 
+
+
 cifar_ten_router = APIRouter(prefix='/cifar_10', tags=['Cifar_10'])
 
 
